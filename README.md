@@ -19,6 +19,13 @@ struct Property
 		cout<<"\tTitular Individual\n\t";
 	}
 };
+struct Cartorio
+{
+	int certidoes;
+	Cartorio(){
+		cout<<"Emissao de certidoes e protesto pelo CENPROT\n\t";
+	}
+};
 struct Renda
 {
 	int ctps;
@@ -164,6 +171,7 @@ void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
 void Bradesco();void ContadorId();
 void Cadin();void MelhorCambio();
+void CENPROT();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -184,14 +192,14 @@ void MetaDadosCorrecoes(){
 		cout<<"]\n\tRazao Social ->[";
 		Empresa.RazaoSocial = 'moises ferreira de lima 27555115832';
 		cout<<sizeof(&Empresa.RazaoSocial);
-		cout<<"]\n\t[";
+		cout<<"]\n\tNao Permito Indicaçao de sociedade ->[";
 		Empresa.Socio = 'Empresa Individual s/ socio ou nao tem socio';
 		cout<<sizeof(&Empresa.Socio);
 		cout<<"]\n\t";
 		local();Titular();
 		area();Receita();
 		InstitutoNacionalSeguroSocial();
-		ContadorId();
+		ContadorId();CENPROT();
 	}   
 	Cadin();	
 }
@@ -333,7 +341,7 @@ void Patrimonio(){
 		cout<<"]\n\tRecurso Cripto EXP ->[";
 		Patrimonio.EXP = '5M';
 		cout<<sizeof(&Patrimonio.EXP);
-		cout<<"]\n\trRecurso Cripto Gemas ->[";
+		cout<<"]\n\tRecurso Cripto Gemas ->[";
 		Patrimonio.Gemas = '200K';
 		cout<<sizeof(&Patrimonio.Gemas);
 		cout<<"]\n\tRecurso Fundo Edge ->[";
@@ -418,6 +426,16 @@ void MelhorCambio(){
 		cout<<"]\n\tVenda USD ->[";
 		melhorcambio.venda;
 		cout<<sizeof(&melhorcambio.venda);
+		cout<<"]\n\t";
+	}
+}
+void CENPROT(){
+	Cartorio CENPROT;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Cartorio Protesto ->[";
+		CENPROT.certidoes;
+		cout<<sizeof(&CENPROT.certidoes);
 		cout<<"]\n\t";
 	}
 }
