@@ -145,6 +145,15 @@ struct Fazenda
 		<<"e o governo nao entregou minha renda variavel \n\t";
 	}
 };
+struct cambio
+{
+	int remessa;
+	int venda;
+	cambio(){
+		cout<<"Melhor Cambio\n\tMoises ferreira de lima\tRg: 27.950.938-8\n\t"
+		<<"Uma vez por semana ,peço remessa on line de cambio. \n\tPra credito direto em conta \n\tE vendo USD pra receber em Delivery \n\t";
+	}
+};
 void local();
 void Titular();
 void MetaDadosCorrecoes();
@@ -154,7 +163,7 @@ void GanhoEmpenho();
 void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
 void Bradesco();void ContadorId();
-void Cadin();
+void Cadin();void MelhorCambio();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -211,7 +220,7 @@ void Titular(){
   		   Titular.Email = 'moisesfdl_pbt@hotmail.com.br'||'moisesprobabilidade@gmail.com';
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
-	   	   GanhoEmpenho();
+	   	   GanhoEmpenho();MelhorCambio();
 	   	   Patrimonio();Bradesco();
 	   }
 }
@@ -266,7 +275,7 @@ void desenvolvimento(){
 	Project3 Produto3;
 	if(MetaDadosCorrecoes)
 	{
-		cout<<"\tProjeto Produto ->[";
+		cout<<"Projeto Produto ->[";
 		Produto1.produto = 'Desenho em camisa';
 		cout<<sizeof(&Produto1.produto);
 		cout<<"]\n\tOrçamento Produto ->[";
@@ -296,7 +305,7 @@ void GanhoEmpenho(){
 		cout<<"Folha Salario ->[";
 		Salario.FolhaSalario = 'R$6250';
 		cout<<sizeof(&Salario.FolhaSalario);
-		cout<<"]\n\t[";
+		cout<<"]\n\tCtps ->[";
 		Salario.ctps = '77646/0150';
 		cout<<sizeof(&Salario.ctps);
 		cout<<"]\n\t";
@@ -396,6 +405,19 @@ void Cadin(){
 		cout<<"Cadatro Cadin ->[";
 		Gov.Cadin = 'Eu nao devo nada pra orgao ou entidade do Estado ou Nacional';
 		cout<<sizeof(&Gov.Cadin);
+		cout<<"]\n\t";
+	}
+}
+void MelhorCambio(){
+	cambio melhorcambio;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Remessa cambio ->[";
+		melhorcambio.remessa;
+		cout<<sizeof(&melhorcambio.remessa);
+		cout<<"]\n\tVenda USD ->[";
+		melhorcambio.venda;
+		cout<<sizeof(&melhorcambio.venda);
 		cout<<"]\n\t";
 	}
 }
