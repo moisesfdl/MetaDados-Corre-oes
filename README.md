@@ -228,8 +228,8 @@ void Titular(){
   		   Titular.Email = 'moisesfdl_pbt@hotmail.com.br'||'moisesprobabilidade@gmail.com';
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
-	   	   GanhoEmpenho();MelhorCambio();
-	   	   Patrimonio();Bradesco();
+	   	  MelhorCambio();
+	   	   Patrimonio();Bradesco();CENPROT();
 	   }
 }
 void local(){
@@ -395,6 +395,7 @@ void Bradesco(){
 		cout<<sizeof(&Bradesco.Conta);
 		cout<<"]\n\t";
 	}
+	GanhoEmpenho();
 }
 void ContadorId(){
 	ContaBil Contabilidade;
