@@ -39,8 +39,10 @@ struct Negocio
 {
 	int NomeFantasia;
 	int RazaoSocial;
+	int Socio;
 	Negocio(){
 		cout<<"\tEmpresa MetaDados&Correçoes\n\t";
+		cout<<"\tEmpresa S/socio ou nao tem socio\n\t";
 	}
 };
 struct Empenho
@@ -138,6 +140,9 @@ void MetaDadosCorrecoes(){
 		cout<<"]\n\tRazao Social ->[";
 		Empresa.RazaoSocial = 'moises ferreira de lima 27555115832';
 		cout<<sizeof(&Empresa.RazaoSocial);
+		cout<<"]\n\t[";
+		Empresa.Socio = 'Empresa Individual s/ socio ou nao tem socio';
+		cout<<sizeof(&Empresa.Socio);
 		cout<<"]\n\t";
 		local();Titular();
 		area();Receita();
@@ -302,7 +307,7 @@ void Receita(){
 		cout<<sizeof(Receita.IRPF);
 		cout<<"]\n\tImposta a pagar [";
 		Receita.ImpostoDas = '100 x1 por mes';
-		cout<<sizeof(&Receita.Imposto);
+		cout<<sizeof(&Receita.ImpostoDas);
 		cout<<"]\n\t";
 	}
 }
