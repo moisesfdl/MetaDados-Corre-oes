@@ -30,7 +30,7 @@ struct Renda
 struct ImpostoRenda
 {
 	int IRPF;
-	float Imposto;
+	float ImpostoDas;
 	ImpostoRenda(){
 		cout<<"Declaraçao da empresa na Receita Federal\n\t";
 	}
@@ -301,7 +301,7 @@ void Receita(){
 		Receita.IRPF;
 		cout<<sizeof(Receita.IRPF);
 		cout<<"]\n\tImposta a pagar [";
-		Receita.Imposto = '100 x1 por mes';
+		Receita.ImpostoDas = '100 x1 por mes';
 		cout<<sizeof(&Receita.Imposto);
 		cout<<"]\n\t";
 	}
