@@ -27,6 +27,14 @@ struct Renda
 		cout<<"Folha Salario R$6250 por mes\n\t";
 	}
 };
+struct ImpostoRenda
+{
+	int IRPF;
+	float Imposto;
+	ImpostoRenda(){
+		cout<<"Declaraçao da empresa na Receita Federal\n\t";
+	}
+};
 struct Negocio
 {
 	int NomeFantasia;
@@ -109,7 +117,7 @@ void MetaDadosCorrecoes();
 void area();
 void desenvolvimento();
 void GanhoEmpenho();
-void Patrimonio();
+void Patrimonio();void Receita();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -132,7 +140,7 @@ void MetaDadosCorrecoes(){
 		cout<<sizeof(&Empresa.RazaoSocial);
 		cout<<"]\n\t";
 		local();Titular();
-		area();
+		area();Receita();
 	}   	
 }
 void Titular(){
@@ -282,6 +290,19 @@ void Patrimonio(){
 		cout<<"]\n\tRecurso Homer Brokers ->[";
 		Patrimonio.HomerBrokers;
 		cout<<sizeof(&Patrimonio.HomerBrokers);
+		cout<<"]\n\t";
+	}
+}
+void Receita(){
+	ImpostoRenda Receita;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Declaraçao Imposto ->[";
+		Receita.IRPF;
+		cout<<sizeof(Receita.IRPF);
+		cout<<"]\n\tImposta a pagar [";
+		Receita.Imposto = '100 x1 por mes';
+		cout<<sizeof(&Receita.Imposto);
 		cout<<"]\n\t";
 	}
 }
