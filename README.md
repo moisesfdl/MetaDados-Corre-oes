@@ -24,6 +24,8 @@ struct Rede
 	int Facebook;
 	int twitter;
 	int Linkedin;
+	int Playstation;
+	int xbox;
 	Rede(){
 		cout<<"Moises ferreira de lima\tRg: 27.950.938-8\n\tMinha Rede Social \n\tFacebook\n\tLinkedin\n\tTwitter -> @moisesfdl\n\t";
 	}
@@ -462,6 +464,12 @@ void Social(){
 		cout<<"]\n\tMeu Linkedin ->[";
 		Social.Linkedin;
 		cout<<sizeof(&Social.Linkedin);
+		cout<<"]\n\tPlaystation ->[";
+		Social.Playstation;
+		cout<<sizeof(&Social.Playstation);
+		cout<<"]\n\tXbox ->[";
+		Social.xbox;
+		cout<<sizeof(&Social.xbox);
 		cout<<"]\n\t";
 	}
 }
