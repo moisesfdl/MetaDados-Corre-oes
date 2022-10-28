@@ -38,7 +38,7 @@ struct Empenho
 	int MineratorCripto;
 	int Live;
 	Empenho(){
-		cout<<"\tAutonomo\n\tTrabalho Formal de Negocio Proprio\n\t";
+		cout<<"\tAutonomo\n\tTrabalho Formal de Negocio Proprio\n\tAssessoria Juridica Pessoal\n\t";
 	}
 };
 struct Project1
