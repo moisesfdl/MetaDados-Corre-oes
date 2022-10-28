@@ -137,6 +137,14 @@ struct ContaBil
 		cout<<"Prolabore -> Declaraçao de renda Anul\n\t";
 	}
 };
+struct Fazenda
+{
+	int Cadin;
+	Fazenda(){
+		cout<<"Cadin ->Cadastro de credito devedor no setor publico \n\tEu nao devo nada no setor publico \n\t"
+		<<"e o governo nao entregou minha renda variavel \n\t";
+	}
+};
 void local();
 void Titular();
 void MetaDadosCorrecoes();
@@ -146,6 +154,7 @@ void GanhoEmpenho();
 void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
 void Bradesco();void ContadorId();
+void Cadin();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -174,7 +183,8 @@ void MetaDadosCorrecoes(){
 		area();Receita();
 		InstitutoNacionalSeguroSocial();
 		ContadorId();
-	}   	
+	}   
+	Cadin();	
 }
 void Titular(){
 	   Property Titular;
@@ -373,9 +383,19 @@ void ContadorId(){
 	ContaBil Contabilidade;
 	if(MetaDadosCorrecoes)
 	{
-		cout<<"Prolabore ->";
+		cout<<"Prolabore ->[";
 		Contabilidade.Prolabore = '20000/12 - 0.05% x1 por mes';
 		cout<<sizeof(&Contabilidade.Prolabore);
+		cout<<"]\n\t";
+	}
+}
+void Cadin(){
+	Fazenda Gov;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Cadatro Cadin ->[";
+		Gov.Cadin = 'Eu nao devo nada pra orgao ou entidade do Estado ou Nacional';
+		cout<<sizeof(&Gov.Cadin);
 		cout<<"]\n\t";
 	}
 }
