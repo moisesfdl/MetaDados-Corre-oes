@@ -20,6 +20,13 @@ struct Property
 		cout<<"\tTitular Individual\n\t";
 	}
 };
+struct Renda
+{
+	int FolhaSalario;
+	Renda(){
+		cout<<"Folha Salario R$6250 por mes\n\t";
+	}
+};
 struct Negocio
 {
 	int NomeFantasia;
@@ -85,6 +92,7 @@ void Titular();
 void MetaDadosCorrecoes();
 void area();
 void desenvolvimento();
+void GanhoEmpenho();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -135,6 +143,7 @@ void Titular(){
   		   Titular.Email = 'moisesfdl_pbt@hotmail.com.br'||'moisesprobabilidade@gmail.com';
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
+	   	   GanhoEmpenho();
 	   }
 }
 void local(){
@@ -211,3 +220,13 @@ void desenvolvimento(){
 		cout<<"]\n\t";
 	}
 } 
+void GanhoEmpenho(){
+	Renda Salario;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Folha Salario ->[";
+		Salario.FolhaSalario = 'R$6250';
+		cout<<sizeof(&Salario.FolhaSalario);
+		cout<<"]\n\t";
+	}
+}
