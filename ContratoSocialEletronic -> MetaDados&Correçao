@@ -1,0 +1,186 @@
+    function cartorio(){
+    const ContratoSocial = function(){
+        var ContratoSocialEletronico =  `Empresa: MetaDados&Correçao\tCNPJ: 35.669.326/0001-90\t Data-Abertura:01/12/2019\n`
+    +`Context-Comentario: Proprietario Individual Empresario executivo Moises ferreira de lima, \nrg: 27.950.938-8 , sou representante responsavel `
+    +` desta empresa MetaDados&Correçao :\n e coloco em pratica minha clausula de diretriz e regra desta empresa em Contrato-Social-Eletronico\n\n`
+    +`Clausula 1ª- esta empresa nao permitira , do objeto disposto , em triagem , nao violar minhas correpondencias\n`
+    +` (Vide Lei nº 9.296, de 1996), respeito atos juridicos desta empresa .!!\n\n`
+    +`Clausula 2ª-esta empresa dispoe de iniciativa privada individual, de livre expressão expontanea de \n`
+    +`atividade intelectual, artística, científica e de comunicação,independentemente de censura ou licença.\n`
+    +` Respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 3ª-esta empresas respeita  a intimidade, a vida privada, a honra e a imagem das pessoas, \n`
+    +`assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação; \n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 4ª-este empresa  garanti o direito de propriedade e patrimonio;\n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 5ª-esta empresa nao permitira que se estabelecerá o procedimento para desapropriação por \n`
+    +`necessidade ou utilidade pública, ou por interesse social, seja notificado mediante justa e prévia \n`
+    +`indenização em dinheiro, ressalvados os casos previstos na Constituição; \n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 6ª-esta empresa nao dou  o direito de fiscalização do aproveitamento econômico da obras desta \n`
+    +`empresa, aos intérpretes e às respectivas representações sindicais; \n`
+    +`respeito aos atos juridicos desta empresa. \n\n`
+    +`Clausula 7ª-a empresa prestara proteção às participações individuais em obras coletivas e à reprodução da \n`
+    +`imagem e voz humanas, inclusive nas atividades se assim forem nessessarias; \n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 8ª-ésta empresa individual, dar garantia do direito de herança diretamente com proprietario; \n`
+    +`respeito aos atos juridicos desta empresa. \n\n`
+    +`Clausula 9ª-esta empresa nao permite suspensão, intermediaçao ou interdição de seus direitos; \n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 10ª-esta empresa pretende ser fiel a lei,\n`
+    +`->São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua \n`
+    +`condição social: salário mínimo, fixado em lei, nacionalmente unificado, capaz de atender a suas \n`
+    +` necessidades vitais básicas e às de sua família com moradia, alimentação, educação, saúde, lazer, \n`
+    +` vestuário, higiene, transporte e previdência social, com reajustes periódicos que lhe preservem o \n`
+    +` poder aquisitivo, sendo vedada sua vinculação para qualquer fim;\n\n`
+    +`Anexo V  - piso salarial proporcional à extensão e à complexidade do trabalho; \n`
+    +`garantia de salário, nunca inferior ao mínimo, para os que percebem remuneração variável;\n\n`
+    +`Anexo VIII - décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria;\n\n`
+    +`Anexo IX - remuneração do trabalho noturno superior à do diurno;\n\n`
+    +`Anexo X - proteção do salário na forma da lei, constituindo crime sua retenção dolosa;\n\n`
+    +`Anexo XI - participação nos lucros, ou resultados, desvinculada da remuneração, e, \n`
+    +`excepcionalmente, participação na gestão da empresa, conforme definido em lei;\n\n`
+    +`Anexo XII - salário-família para os seus dependentes;\n\n`
+    +`Anexo XIII - duração do trabalho normal não superior a oito horas diárias e quarenta e quatro\n`
+    +` semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou \n`
+    +`convenção coletiva de trabalho; (Vide Decreto-Lei nº 5.452, de 1943)\n\n`
+    +`Anexo XIV - jornada de seis horas para o trabalho realizado em turnos ininterruptos de \n`
+    +`revezamento, salvo negociação coletiva;\n\n`
+    +`Anexo XV - repouso semanal remunerado, preferencialmente aos domingos;\n\n`
+    +`Anexo XVI - remuneração do serviço extraordinário superior, no mínimo, em \n`
+    +`cinqüenta por cento à do normal; (Vide Del 5.452, art. 59 § 1º)\n\n`
+    +`Anexo XVII - gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal;\n\n`
+    +`Anexo XVIII - licença à gestante, sem prejuízo do emprego e do salário, com a duração de cento e vinte dias;\n\n`
+    +`Anexo XIX - licença-paternidade, nos termos fixados em lei;\n\n`
+    +`Anexo XX - proteção do mercado de trabalho da mulher, mediante incentivos específicos, nos termos da lei;\n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Anexo XXVII - proteção em face da automação, na forma da lei;\n\n`
+    +`Anexo XXVIII - seguro contra acidentes de trabalho, a cargo do empregador, sem excluir a indenização a que\n`
+    +` este está obrigado, quando incorrer em dolo ou culpa;\n\n`
+    +`Clausula 11ª - esta empresa nao aceita ser banida da rede on line sem a devida notificaçao e compussoria\n`
+    +` (motivo pela qual esta sendo); \n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 12ª - esta empresa de contrato eletronico on line, de correçao de fundo ibovespa , \n`
+    +`desenvolvimento de jogo , mineraçao de cripto moeda, informo que nao conheço o sindicato de \n`
+    +`desenvolvedor e programador.\n\n`
+    +`Anexo III - ao sindicato cabe a defesa dos direitos e interesses coletivos ou individuais da categoria;\n`
+    +`V - ninguém será obrigado a filiar-se ou a manter-se filiado a sindicato;\n`
+    +`respeito aos atos juridicos desta empresa.\n\n`
+    +`Clausula 13ª - esta empresa nao fere esta lei;\n`
+    +`§ 2º A lei não poderá estabelecer distinção entre brasileiros natos e naturalizados, salvo nos casos\n`
+    +` previstos nesta Constituição.\n\n`
+    +`Clausula 14ª - esta empresa nao permite a lesgislaçao da UNIAO, delimitar ou manobrar correpondencias,\n`
+    +` ou poder econômico.\n\n`
+    +`Clausula 15ª - na subsistencia desta  empresa (on line); → os acréscimos pecuniários percebidos por\n`
+    +` servidor host privados serão computados e acumulados para fins de concessão de acréscimos e ganhos \n`
+    +` nao permitindo concessão a terceiros;\n\n`
+    +`Clausula 16ª - esta empresa em pleno desenvolvimento e desempenho Experiencia (cripto);\n`
+    +`A publicidade e atos, programas, obras, serviços e campanhas ,ELS,steam,trader, deverá ter caráter educativo,\n` 
+    +`informativo ou de orientação social, dela não podendo constar nomes, símbolos ou gestos mal gosto que\n`
+    +` caracterizem promoção atos e vandalo.\n\n`
+    +`Clausula 17ª - esta emrpesa se responsabiliza em honorarios; as reclamações relativas à prestação\n`
+    +` dos serviços públicos em live, steming ou trader, asseguradas a manutenção de serviços de\n`
+    +`atendimento ao usuário e a avaliação periódica, externa e interna, da qualidade destes serviços;\n`
+    +`compete exclusivamente ao proprietario desta empresa;\n\n`
+    +`Clausula 18ª - esta empresa individual de correçao e desenvolvimento on line;\n`
+    +`A autonomia gerencial, orçamentária e financeira desta entidade em administração direta e indireta poderá ser\n`
+    +`ampliada mediante contrato, a ser firmado entre interesse alheio de terceiros,\n`
+    +`que tenha por objeto a fixação de metas de desempenho para o órgão ou entidade;\n`
+    +`diretamente com proprietario desta empresa;\n\n`
+    +`Clausula 19ª - esta empresa dispoe de mineraçao de recursos e pretende, aplicar recursos orçamentários \n`
+    +` provenientes da economia com despesas correntes fundo, para aplicação no desenvolvimento de programas\n`
+    +` de qualidade e produtividade, treinamento e desenvolvimento, modernização, reaparelhamento e \n`
+    +`racionalização do desempenho EXPERIENCIA, inclusive sob a forma de adicional ou prêmio de produtividade\n`
+    +`FONTE PAGADORA DO EXTERIOR IMF , ELS , WEBMONEY, BLOCKCHAIN, GLOBALgames, worldbank, steam, etc...\n\n`
+    +`Clausula 20ª - esta empresa depende de mesa de cambio, tratados de mercado ibovespa, assegurando o \n`
+    +`reajustamento dos benefícios (commission) para preservar-lhes, em caráter permanente, o valor real,\n`
+    +` conforme critérios cambio (fonte);\n\n`
+    +`Clausula 21ª - esta empresa se aplica o limite fixado , folha salario (bradesconetempresa(6250.r$)), \n`
+    +`à soma total dos proventos de inatividade, inclusive quando decorrentes da acumulação de salario ou \n`
+    +`empregos prestado, bem como de outras atividades sujeitas a contribuição para o regime geral de previdência\n`
+    +` social, e ao montante resultante da adição de proventos de inatividade com remuneração de cargo acumulável\n`
+    +` na forma desta Constituição, cargo em comissão declarado em imposto devido a receber;\n\n`
+    +`Clausula 22ª - esta empresas se atualiza e se equadra ao modelo de arrecadação,e aplicação e de\n`
+    +` utilização dos recursos (edge , ibovespa , bovespa, criptoCoin);\n\n`
+    +`Clausula 23ª - esta empresa não permite que o procuradores indicados ou pessoas coligados ou celebridade\n`
+    +`usando de sua credenciais ou alto de influencia , atente, abortem ou tente alienar fundo da fonte ou ganhos\n`
+    +` de renda variável.\n\n`
+    +`Clausula 24ª - nesta empresa com ato juridico , abre licitaçao, vem fazer abertura de oferta e proposta na\n`
+    +` rede online , nao permite que terceiros ou qualquer entidade ou coligado venha a atentar , alienar , ou\n`
+    +` buling contra esta empresa, nao expor em leilao , e se assim ocorrer notificar o proprietario \n`
+    +`moises ferreira de lima ,.\n\n`
+    +`Clausula 25ª - litigioso ato juridico desta empresa , e seu empenho ou qualquer açao ligada a mesma , \n`
+    +`tanto juridico quanto pessoa fisica , se refere somente a minha pessoa moises ferreira de lima ,\n`
+    +` eu sou homem , e qualquer questionamento sobre minha ligitma pessoa ou minha aptidao , e pra me notificar ,\n`
+    +` e nao permito delegaçao ou motim contra a regra fora do ambito da empresa, mandar ou delagar minha \n`
+    +` correspondencia ou qualquer entrega a ser recebido por mim apenas , notificar caso acontecer incendio \n`
+    +` vindo de terceiro ou ate familiar ,.\n\n`
+    +`Clausula 26ª - litigioso ato juridico desta empresa , nao permito tramite juridico judicial secreto \n`
+    +`(cpf, ou cnpj), mas que se declare e processo e me notifique pra acariaçao.\n\n`
+    +`Clausula 27ª - litigioso ato juridico desta empresa , nao pratico cultismo ou qualquer tipo de ritual \n`
+    +` e nao descrimino quem as pratica. respeito o ato juridico desta empresa\n\n`
+    +`Clausula 28ª - litigioso ato juridico desta empresa , nao pratico qualquer tipo de descriminaçao , e \n`
+    +` nao aceito quem as pratica tal ato.\n\n`
+    +`Clausula 29ª - litigioso ato juridico desta empresa , em dolo , os pederes sofre de conflito de interesse\n`
+    +` e uso indevido da sua profissao e uso de sua credencial, em pratica de exoneraçao e alienaçao de bens \n`
+    +`com imputaçao ate de prova, nao permito intervençao ou buling , que me notifique se caso ocorra.\n`
+    +` pra abertura de processo.\n\n`
+    +`Clausula 30ª - litigioso ato juridico desta empresa , nao permite fazer doaçao ou endoçar ganhos ou\n`
+    +` lucros da empresa , sao pontos significativo do proprietario apenas . caso aconteça me comunicar e\n`
+    +` boletim de ocorrencia mas processo .\n\n`
+    +`Clausula 31ª - litigioso ato juridico desta empresa , nao tenho socio e nao permito indicaçao de \n`
+    +`sociaedade anonima , nem pra familiar , caso aconteça , comunicar a moises ferreira de lima , mas \n`
+    +`boletim de ocorrencia mas acariaçao e processo.\n\n`
+    +`Clausula 32ª - litigioso ato juridico desta empresa , a conta juridica desta empresa e uma so apenas \n`
+    +`banco bradesco net empresa , nao estou usando talao de cheque, cartao credito, e nao fiz compra de imovel ,\n`
+    +` caso acontecer comunicar moises ferreira de lima, mas boletim de ocorrencia mas acariaçao e processo.\n\n`
+    +`Clausula 33ª - litigioso ato juridico desta empresa , esta empresa na area de correçao de fundos , correçao\n`
+    +` imobiliaria , desenvolvedor game minerator de cripto moeda , eu moises ferreira de lima , pretendo comprar \n`
+    +`um imovel , declaro aqui apartir de hoje 11/12/2021 tentar ir pra um novo endereço\n\n`
+    +`Clausula 34ª - litigioso ato juridico desta empresa , nao permito os prestador de serviço \n`
+    +`e honorario , advogado em questao , nao responder a indicado a procurador geral brasileiro ou\n`
+    +` de qualquer outro pais . apenas pra interesses desta instituiçao iniciativa privada nao\n`
+    +` governamental , direta ja.\n\n`
+    +`Clausula 35ª - litigioso ato juridico desta empresa , nao permito tramitar em oculto ou dar por\n`
+    +` esquecido meus negocio em parte de ato juridico . tramitar legalmente no momento com exito de\n`
+    +` coesao e ciencia do seu trabalho cartorio . posiçao executiva .\n\n`
+    +`Clausula 36ª - litigioso ato juridico desta empresa, nao permito pacto contra minha instituiçao,\n`
+    +` nao permito exoneraçao, respeite o meu ato juridico\n\n`
+    +`[ Declaraçao de Patrimonio ]\n`
+    +`Fundo Investimento : 12M *+USD(US-DOLAR)\n`
+    +`Cripto : 20M *+EXP\n `
+    +`Cripto : 10M *+XP\n`
+    +`Cripto : 1M *+BTC\n`
+    +`Credito On Line: R$5M *+r$\n`
+    +`Credito Imobiliario Pessoa Fisica: R$50M *+r$\n`
+    +`Credito Imobiliario Pessoa Juridica: R$500M *+r$\n`
+    +`Moeda BRL: 10K BRL *+BRL\n`
+    +`Moeda Dolar Us: 1M7K US DOLAR (CARD V, MASTERCARD)\n`
+    +`Cripto Gemas : 117Gemas *+Gemas\n`
+    +`Net Liquid Valid Edge: 2M500k 2014\n`
+    +`Excess Liquid Valid Edge: 2M  2015\n\n`
+    +`Empenho Empresarial : esta emrpesa em constante ambito de desenvolvedor , programador, se aplica a \n`
+    +`condicionar empenho em area ,telecomunicações e radiodifusão, matéria financeira, cambial e monetária,\n`
+    +` instituições financeiras e suas operações, moeda, seus limites de emissão, e montante da Credito\n`
+    +` Imobiliário desta instituiçao, açoes empresariais , corretagem de imovel, desempenho EXPERIENCIA\n`
+    +` plataformaSTEAM(jogos-originais) na mineraçao cripto(EXP, XP)compra (btc);\n\n`
+    +`Contrato Eletronico Bilateral Individual : o contraente e de uma parte ,e não se confunde com pessoa,\n`
+    +` uma só pessoa pode representar as duas partes, como no auto-contrato ou contrato consigo mesmo, e uma\n`
+    +` só parte, nao permito ser representado por outra parte , apenas eu e meu auto-contrato, abrangindo o\n`
+    +` codigo civil, configurando o direito de obrigaçao direta, acatar e executar a obrigaçao, do \n`
+    +` direito da vontado juridica\n\n`
+    +`\t\t\t©   Assinatura: . MOISES FERREIRA DE LIMA \n`
+    +`\t\t\tLocal : Sao Jose Dos Campos-SP Data-Fundaçao:01/12/2019\n\n`
+    +`\t\t\t©  Nome Fantasia: MetaDados&Correçao \n\n`
+    +`Rodape::Empresario:cnpj:'35.669.326/0001-90',cpf:'275.551.158-32', investidor:'Ibovespa & Bovespa',\n`
+    +`celular:12996497466,contacto email:moisesfdl_pbt@hotmail.com.br,auternativo:moisesprobabilidade@gmail.com\n`
+    +`ctps:'77646/00150';NIS:'125.41632.83.7';,residente:brasileiro;endereço-correspondencia:rua=paturi,\n`
+    +`numero=230,bairro=buquirinha-II,cidade=sao-jose-dos-campos,estado=sao-paulo,pais=brasil,cep=12.214-563;\n`
+        for(let empresa in ContratoSocialEletronico){
+            empresa = [2]
+            return empresa
+        }
+}
+console.log(ContratoSocial())
+    }
+    cartorio()
