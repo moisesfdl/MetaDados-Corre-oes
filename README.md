@@ -19,6 +19,15 @@ struct Property
 		cout<<"\tTitular Individual\n\t";
 	}
 };
+struct Rede
+{
+	int Facebook;
+	int twitter;
+	int Linkedin;
+	Rede(){
+		cout<<"Moises ferreira de lima\tRg: 27.950.938-8\n\tMinha Rede Social \n\tFacebook\n\tLinkedin\n\tTwitter -> @moisesfdl\n\t";
+	}
+};
 struct Cartorio
 {
 	int certidoes;
@@ -171,7 +180,7 @@ void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
 void Bradesco();void ContadorId();
 void Cadin();void MelhorCambio();
-void CENPROT();
+void CENPROT();void Social();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -228,7 +237,7 @@ void Titular(){
   		   Titular.Email = 'moisesfdl_pbt@hotmail.com.br'||'moisesprobabilidade@gmail.com';
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
-	   	  MelhorCambio();
+	   	  MelhorCambio();Social();
 	   	   Patrimonio();Bradesco();CENPROT();
 	   }
 }
@@ -437,6 +446,22 @@ void CENPROT(){
 		cout<<"Cartorio Protesto ->[";
 		CENPROT.certidoes;
 		cout<<sizeof(&CENPROT.certidoes);
+		cout<<"]\n\t";
+	}
+}
+void Social(){
+	Rede Social;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Meu Facebook ->[";
+		Social.Facebook = 'moises ferreira de lima';
+		cout<<sizeof(&Social.Facebook);
+		cout<<"]\n\tMeu Twitter ->[";
+		Social.twitter = 'moisesfdl';
+		cout<<sizeof(Social.twitter);
+		cout<<"]\n\tMeu Linkedin ->[";
+		Social.Linkedin;
+		cout<<sizeof(&Social.Linkedin);
 		cout<<"]\n\t";
 	}
 }
