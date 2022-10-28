@@ -74,6 +74,22 @@ struct Project3
 		<<"E emplementar o projeto e se aprovado dar andamento\n\t";
 	}
 };
+struct Resouce
+{
+	int PremioFacebook;
+	int PremioLccGoogle;
+	int PremioMicrosift;
+	int PremioWorldBank;
+	int ResouceBankOfAmerica;
+	int EXP;
+	int Gemas;
+	int FundoEdge;
+	int FundoInvestimentos;
+	int HomerBrokers;
+	Resouce(){
+		cout<<"Propriedade de recurso titular\n\t";
+	}
+};
 struct location
 {
 	int Rua;
@@ -93,6 +109,7 @@ void MetaDadosCorrecoes();
 void area();
 void desenvolvimento();
 void GanhoEmpenho();
+void Patrimonio();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -144,6 +161,7 @@ void Titular(){
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
 	   	   GanhoEmpenho();
+	   	   Patrimonio();
 	   }
 }
 void local(){
@@ -227,6 +245,43 @@ void GanhoEmpenho(){
 		cout<<"Folha Salario ->[";
 		Salario.FolhaSalario = 'R$6250';
 		cout<<sizeof(&Salario.FolhaSalario);
+		cout<<"]\n\t";
+	}
+}
+void Patrimonio(){
+	Resouce Patrimonio;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Premio Facebook ->[";
+		Patrimonio.PremioFacebook;
+		cout<<sizeof(&Patrimonio.PremioFacebook);
+		cout<<"]\n\tPremio LCC-Google ->[";
+		Patrimonio.PremioLccGoogle;
+		cout<<sizeof(&Patrimonio.PremioLccGoogle);
+		cout<<"]\n\tPremio Microsoft ->[";
+		Patrimonio.PremioMicrosift;
+		cout<<sizeof(&Patrimonio.PremioMicrosift);
+		cout<<"]\n\tPremio WorldBank Payment ->[";
+		Patrimonio.PremioWorldBank;
+		cout<<sizeof(&Patrimonio.PremioWorldBank);
+		cout<<"]\n\tRecurso bankofamerica ->[";
+		Patrimonio.ResouceBankOfAmerica;
+		cout<<sizeof(&Patrimonio.ResouceBankOfAmerica);
+		cout<<"]\n\tRecurso Cripto EXP ->[";
+		Patrimonio.EXP = '5M';
+		cout<<sizeof(&Patrimonio.EXP);
+		cout<<"]\n\trRecurso Cripto Gemas ->[";
+		Patrimonio.Gemas = '200K';
+		cout<<sizeof(&Patrimonio.Gemas);
+		cout<<"]\n\tRecurso Fundo Edge ->[";
+		Patrimonio.FundoEdge = '12M USD';
+		cout<<sizeof(&Patrimonio.FundoEdge);
+		cout<<"]\n\tRecurso Fundo Investimentos ->[";
+		Patrimonio.FundoInvestimentos = '8M';
+		cout<<sizeof(&Patrimonio.FundoInvestimentos);
+		cout<<"]\n\tRecurso Homer Brokers ->[";
+		Patrimonio.HomerBrokers;
+		cout<<sizeof(&Patrimonio.HomerBrokers);
 		cout<<"]\n\t";
 	}
 }
