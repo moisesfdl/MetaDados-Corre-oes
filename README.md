@@ -209,6 +209,5 @@ void desenvolvimento(){
 		Produto3.PropostaStruct;
 		cout<<sizeof(&Produto3.PropostaStruct);
 		cout<<"]\n\t";
-		
 	}
 } 
