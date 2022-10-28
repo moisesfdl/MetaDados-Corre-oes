@@ -27,6 +27,14 @@ struct Renda
 		cout<<"Folha Salario R$6250 por mes\n\t";
 	}
 };
+struct eSocial
+{
+	int Nis;
+	int FGTS;
+ 	eSocial(){
+		 cout<<"Pagamento do Nis e FGTS\n\t";
+	 }
+};
 struct ImpostoRenda
 {
 	int IRPF;
@@ -120,6 +128,7 @@ void area();
 void desenvolvimento();
 void GanhoEmpenho();
 void Patrimonio();void Receita();
+void InstitutoNacionalSeguroSocial();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -146,6 +155,7 @@ void MetaDadosCorrecoes(){
 		cout<<"]\n\t";
 		local();Titular();
 		area();Receita();
+		InstitutoNacionalSeguroSocial();
 	}   	
 }
 void Titular(){
@@ -311,6 +321,19 @@ void Receita(){
 		cout<<"]\n\tImposta a pagar [";
 		Receita.ImpostoDas = '100 x1 por mes';
 		cout<<sizeof(&Receita.ImpostoDas);
+		cout<<"]\n\t";
+	}
+}
+void InstitutoNacionalSeguroSocial(){
+	eSocial INSS;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"NIS: 125.41632.83-7 ->[";
+		INSS.Nis = '100 x1 por mes';
+		cout<<sizeof(&INSS.Nis);
+		cout<<"]\n\tFGTS OF CTPS 77646/0150 ->[";
+		INSS.FGTS = '301,25 x1 por mes';
+		cout<<sizeof(&INSS.FGTS);
 		cout<<"]\n\t";
 	}
 }
