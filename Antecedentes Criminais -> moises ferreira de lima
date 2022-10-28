@@ -1,0 +1,50 @@
+function irpf(){
+function cartorio(){
+const atestado = function(){
+    var AntecedentesCriminais =`\tAtestado de \tSecretaria da\t\tGoverno do estado de\n\t`
+    +`Antecedentes\tSegurança Publica\t\tSAO PAULO\n\n\t`
+    +`IIRGD - Instituto de Identificaçao Ricardo Gumbleton Daunt\n\t`
+    +`#-------------------------------------------------------------#\n\t`
+    +`Nome : MOISES FERREIRA DE LIMA\n\tNº RG de SP : 27950938-8\n\t`
+    +`Nome do Pai : ARLINDO FERREIRA DE LIMA\n\tNome da Mae : DINA CHAGAS DE ARAUJO LIMA\n\t`
+    +`Data de Nascimento : 14/05/1977\n\t`
+    +`#-------------------------------------------------------------#\n\t`
+    +`Atesto que , para a combinaçao de dados de qualificaçao acima \n\t`
+    +`informada, NÃO existe registro de antecedentes judiciais - criminais, \n\t`
+    +`ate a presente data, no instituto de identificaçao Ricardo Gumbleton Daunt\n\n\t`
+    +`IMPORTANTE : \n\tEste atestado e valido somente com a apresentaçao de documentaçao \n\t`
+    +`de identidade oficial com os mesmos dados de qualificaçao acima indicados \n\t`
+    +`carimbado e assinado\n\t\t\t\t\tMitiaki Yamamoto\n\t\t\tDelegado de policia Divisionario IIRGD.SSP.SP\n\t`
+    +`#-------------------------------------------------------------#\n\t`
+    +`Esta atestado foi emitido em 05/10/2022, as 12:31 horas e esta \n\t`
+    +`disponivel pra consulta no endereço da internet\n\t`
+    +`http://www3.ssp.sp.gov.br/aacweb/validar-atestado \n\t, informado o codigo abaixo\n\t`
+    +`3a9beeea-0700-4174-aebb-4aa736729a95\n\t`
+    if (AntecedentesCriminais) {
+        globalThis: AntecedentesCriminais
+    }
+    return AntecedentesCriminais
+}
+console.log(atestado())
+const Autenticaçao = function(){
+    var AtestadoAntecedenteCriminal = `3a9beeea-0700-4174-aebb-4aa736729a95`
+    if (AtestadoAntecedenteCriminal) {
+        AuthenticatorResponse: AtestadoAntecedenteCriminal
+    }
+    return AtestadoAntecedenteCriminal
+}
+console.log(Autenticaçao())
+
+const antecedentes = function(){
+    var cadastro = `\n\tantecedentes criminais \n\tNao Consta Nada desde 1997 a 2022\n\tReconhecido Cidadania\n\t`
+    if (cadastro) {
+        let NaoCostaNada
+        NaoCostaNada: cadastro
+    }
+    return cadastro
+}
+console.log(antecedentes())
+}
+cartorio()
+}
+irpf()
