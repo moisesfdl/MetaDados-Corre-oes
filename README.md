@@ -130,6 +130,13 @@ struct location
 		cout<<"\tEndereço Comercial\n\t";
 	}
 };
+struct ContaBil
+{
+	int Prolabore;
+	ContaBil(){
+		cout<<"Prolabore -> Declaraçao de renda Anul\n\t";
+	}
+};
 void local();
 void Titular();
 void MetaDadosCorrecoes();
@@ -138,7 +145,7 @@ void desenvolvimento();
 void GanhoEmpenho();
 void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
-void Bradesco();
+void Bradesco();void ContadorId();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -166,6 +173,7 @@ void MetaDadosCorrecoes(){
 		local();Titular();
 		area();Receita();
 		InstitutoNacionalSeguroSocial();
+		ContadorId();
 	}   	
 }
 void Titular(){
@@ -358,6 +366,16 @@ void Bradesco(){
 		cout<<"]\n\tConta ->[";
 		Bradesco.Conta = '0040054-8';
 		cout<<sizeof(&Bradesco.Conta);
+		cout<<"]\n\t";
+	}
+}
+void ContadorId(){
+	ContaBil Contabilidade;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Prolabore ->";
+		Contabilidade.Prolabore = '20000/12 - 0.05% x1 por mes';
+		cout<<sizeof(&Contabilidade.Prolabore);
 		cout<<"]\n\t";
 	}
 }
