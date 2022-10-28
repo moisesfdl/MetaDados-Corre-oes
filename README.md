@@ -35,6 +35,15 @@ struct eSocial
 		 cout<<"Pagamento do Nis e FGTS\n\t";
 	 }
 };
+struct Bank
+{
+	int Bradesco;
+	int Agencia;
+	int Conta;
+	Bank(){
+		cout<<"Banco de receber o salario\n\tBradesco\n\tAgencia: 0225\n\tConta: 0040054-8\n\t";
+	}
+};
 struct ImpostoRenda
 {
 	int IRPF;
@@ -129,6 +138,7 @@ void desenvolvimento();
 void GanhoEmpenho();
 void Patrimonio();void Receita();
 void InstitutoNacionalSeguroSocial();
+void Bradesco();
 int main(int argc, char** argv)
 {
 	_tsetlocale;
@@ -184,7 +194,7 @@ void Titular(){
 		   cout<<sizeof(&Titular.Email);
 	   	   cout<<"]\n\t";
 	   	   GanhoEmpenho();
-	   	   Patrimonio();
+	   	   Patrimonio();Bradesco();
 	   }
 }
 void local(){
@@ -334,6 +344,20 @@ void InstitutoNacionalSeguroSocial(){
 		cout<<"]\n\tFGTS OF CTPS 77646/0150 ->[";
 		INSS.FGTS = '301,25 x1 por mes';
 		cout<<sizeof(&INSS.FGTS);
+		cout<<"]\n\t";
+	}
+}
+void Bradesco(){
+	Bank Bradesco;
+	if(MetaDadosCorrecoes)
+	{
+		cout<<"Bradesco ->[";
+		Bradesco.Bradesco;
+		Bradesco.Agencia = '0225';
+		cout<<sizeof(&Bradesco.Agencia);
+		cout<<"]\n\tConta ->[";
+		Bradesco.Conta = '0040054-8';
+		cout<<sizeof(&Bradesco.Conta);
 		cout<<"]\n\t";
 	}
 }
