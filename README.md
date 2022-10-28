@@ -1,7 +1,6 @@
 # MetaDados-Corre-oes
 Empresa
 
-
 #include <iostream>
 #include <tchar.h>
 #include <iomanip>
@@ -22,6 +21,7 @@ struct Property
 };
 struct Renda
 {
+	int ctps;
 	int FolhaSalario;
 	Renda(){
 		cout<<"Folha Salario R$6250 por mes\n\t";
@@ -258,6 +258,9 @@ void GanhoEmpenho(){
 		cout<<"Folha Salario ->[";
 		Salario.FolhaSalario = 'R$6250';
 		cout<<sizeof(&Salario.FolhaSalario);
+		cout<<"]\n\t[";
+		Salario.ctps = '77646/0150';
+		cout<<sizeof(&Salario.ctps);
 		cout<<"]\n\t";
 	}
 }
